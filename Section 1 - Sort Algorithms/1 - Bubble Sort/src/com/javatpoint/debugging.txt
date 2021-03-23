@@ -1,0 +1,63 @@
+ i = 0, arr = {20, 35, -15, 7, 55, 1, -22}
+        j = 0 -> continue
+        j = 1 -> swap(35, 20), arr = {35, 20, -15, 7, 55, 1, -22}
+        j = 2 -> continue
+        j = 3 -> continue
+        j = 4 -> swap(55, 35), arr = {55, 20, -15, 7, 35, 1, -22}
+        j = 5 -> continue
+        j = 6 -> continue
+
+    i = 1, arr = {55, 20, -15, 7, 35, 1, -22}
+        j = 0 -> swap(55, 20), arr = {20, 55, -15, 7, 35, 1, -22}
+        j = 1 -> continue
+        j = 2 -> continue
+        j = 3 -> continue
+        j = 4 -> continue
+        j = 5 -> continue
+        j = 6 -> continue
+
+    i = 2, arr = {20, 55, -15, 7, 35, 1, -22}
+        j = 0 -> swap(20, -15), arr = {-15, 55, 20, 7, 35, 1, -22}
+        j = 1 -> swap(55, 20),  arr = {-15, 20, 55, 7, 35, 1, -22}
+        j = 2 -> continue
+        j = 3 -> continue
+        j = 4 -> continue
+        j = 5 -> continue
+        j = 6 -> continue
+
+    i = 3, arr = {-15, 20, 55, 7, 35, 1, -22}
+        j = 0 -> continue
+        j = 1 -> swap(20, 7),   arr = {-15, 7, 55, 20, 35, 1, -22}
+        j = 2 -> swap(55, 20),  arr = {-15, 7, 20, 55, 35, 1, -22}
+        j = 3 -> continue
+        j = 4 -> continue
+        j = 5 -> continue
+        j = 6 -> continue
+
+    i = 4, arr = {-15, 7, 20, 55, 35, 1, -22}
+        j = 0 -> continue
+        j = 1 -> continue
+        j = 2 -> continue
+        j = 3 -> swap(55, 35),  arr = {-15, 7, 20, 35, 55, 1, -22}
+        j = 4 -> continue
+        j = 5 -> continue
+        j = 6 -> continue
+
+    i = 5, arr = {-15, 7, 20, 35, 55, 1, -22}
+        j = 0 -> continue
+        j = 1 -> swap(7, 1),    arr = {-15, 1, 20, 35, 55, 7, -22}
+        j = 2 -> swap(20, 7),   arr = {-15, 1, 7, 35, 55, 20, -22}
+        j = 3 -> swap(35, 20),  arr = {-15, 1, 7, 20, 55, 35, -22}
+        j = 4 -> swap(55, 35),  arr = {-15, 1, 7, 20, 35, 55, -22}
+        j = 5 -> continue
+        j = 6 -> continue
+
+    i = 6, arr = {-15, 1, 7, 20, 35, 55, -22}
+        j = 0 -> swap(-15, -22), arr = {-22, 1, 7, 20, 35, 55, -15}
+        j = 1 -> swap(1, -15),   arr = {-22, -15, 7, 20, 35, 55, 1}
+        j = 2 -> swap(7, 1),     arr = {-22, -15, 1, 20, 35, 55, 7}
+        j = 3 -> swap(20, 7),    arr = {-22, -15, 1, 7, 35, 55, 20}
+        j = 4 -> swap(35, 20),   arr = {-22, -15, 1, 7, 20, 55, 35}
+        j = 5 -> swap(55, 35),   arr = {-22, -15, 1, 7, 20, 35, 55}
+
+    Array is now sorted!!
