@@ -19,7 +19,7 @@ Each project in this repository contains two-packages:
 1. javatpoint:
 Contains "Main.java" class, and "debugging.txt" file to debug the code inside "Main.java" class. It covers everything inside "javatpoint website" about topic.
 2. udemy:
-Contains "Main.java" class, and "debugging.txt" file to debug the code inside "Main.java" class. It covers everything inside "udemy website" about topic.
+Contains "Main.java" class, and "debugging.txt" file to debug the code inside "Main.java" class. It covers everything inside a "udemy course" about topic.
 
 I strongly advise you to look inside this repository.
 
