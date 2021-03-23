@@ -23,6 +23,6 @@ Contains "Main.java" class, and "debugging.txt" file to debug the code inside "M
 
 I strongly advise you to look inside this repository.
 
-Presented by: Samer AL-Sa'dawi
+Presented by: Samer Al-Sa'dawi
 
 Good luck!!
