@@ -21,4 +21,4 @@ Contains "Main.java" class, and "debugging.txt" file to debug the code inside "M
 2. udemy:
 Contains "Main.java" class, and "debugging.txt" file to debug the code inside "Main.java" class. It covers everything inside "udemy website" about topic.
 
-I strongly advise you to look inside this repo, good luck!!
+I strongly advise you to look inside this repository, good luck!!
