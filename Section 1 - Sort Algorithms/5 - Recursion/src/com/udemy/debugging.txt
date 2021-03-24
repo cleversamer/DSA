@@ -1,0 +1,35 @@
+1. Iteration algorithm:
+e.g. iterativeFactorial(9);
+    factorial = 1;
+    for -> {
+        i = 1 -> factorial *= 01 = 1
+        i = 2 -> factorial *= 02 = 2
+        i = 3 -> factorial *= 03 = 6
+        i = 4 -> factorial *= 04 = 24
+        i = 5 -> factorial *= 05 = 120
+        i = 6 -> factorial *= 06 = 720
+        i = 7 -> factorial *= 07 = 5040
+        i = 8 -> factorial *= 08 = 40320
+        i = 9 -> factorial *= 09 = 362880
+        i = 9 -> factorial *= 10 = 3628800
+    }
+    10! = 3628800
+
+2. Recursion algorithm:
+e.g. recursiveFactorial(10);
+    steps:
+    1. If num == 0, them return 1;
+    2. return 10 * recursiveFactorial(10 - 1).
+    Now we gonna explain the steps of "recursiveFactorial(10 - 1)":
+    First, recursiveFactorial(10 - 1) has a final value, it comes by the following steps:
+        01. recursiveFactorial(9) = 9 * recursiveFactorial(8)
+        02. recursiveFactorial(8) = 8 * recursiveFactorial(7)
+        03. recursiveFactorial(7) = 7 * recursiveFactorial(6)
+        04. recursiveFactorial(6) = 6 * recursiveFactorial(5)
+        05. recursiveFactorial(5) = 5 * recursiveFactorial(4)
+        06. recursiveFactorial(4) = 4 * recursiveFactorial(4)
+        07. recursiveFactorial(3) = 3 * recursiveFactorial(3)
+        08. recursiveFactorial(2) = 2 * recursiveFactorial(2)
+        09. recursiveFactorial(1) = 1 * recursiveFactorial(0)
+        10. recursiveFactorial(0) = 1
+As you saw, recursiveFactorial(9) = the product of numbers from 9 to 1.
