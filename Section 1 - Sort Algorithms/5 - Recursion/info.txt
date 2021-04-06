@@ -1,0 +1,14 @@
+- Recursion in Java:
+Is a process in which a method calls itself continuously. A method in java that calls itself
+is called recursive method. It makes the code compact but complex to understand.
+
+This is an explanation of factorial-algorithm in a recursive method.
+- Factorial Algorithm :
+        1. If num is equal to 0, The factorial is 1, return.
+        otherwise...
+        2. Set multiplier to 1.
+        3. Set factorial to 1;
+        4. while multiplier is not equal to num, do steps 5 and 6.
+        5. Multiply factorial by multiplier and assign the result to factorial.
+        6. add 1 to multiplier.
+        7. Return factorial.

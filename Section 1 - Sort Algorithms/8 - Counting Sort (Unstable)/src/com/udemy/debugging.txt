@@ -1,0 +1,59 @@
+intArray = {2, 5, 9, 8, 2, 8, 7, 10, 4, 3}
+max = 10, min = 2
+countArray = new int[9]
+
+for (int element : arr) -> {
+    element-0 -> countArray = {1, 0, 0, 0, 0, 0, 0, 0, 0}
+    element-1 -> countArray = {1, 0, 0, 1, 0, 0, 0, 0, 0}
+    element-2 -> countArray = {1, 0, 0, 1, 0, 0, 0, 1, 0}
+    element-3 -> countArray = {1, 0, 0, 1, 0, 0, 1, 1, 0}
+    element-4 -> countArray = {2, 0, 0, 1, 0, 0, 1, 1, 0}
+    element-5 -> countArray = {2, 0, 0, 1, 0, 0, 2, 1, 0}
+    element-6 -> countArray = {2, 0, 0, 1, 0, 1, 2, 1, 0}
+    element-7 -> countArray = {2, 0, 0, 1, 0, 1, 2, 1, 1}
+    element-8 -> countArray = {2, 0, 1, 1, 0, 1, 2, 1, 1}
+    element-9 -> countArray = {2, 1, 1, 1, 0, 1, 2, 1, 1}
+}
+
+countArray = {2, 1, 1, 1, 0, 1, 2, 1, 1}
+j = 0
+
+for (int i = 2; i <= 10; i++) -> {
+    i = 2 -> while {
+        arr = {2, 5, 9, 8, 2, 8, 7, 10, 4, 3}, j = 1
+        arr = {2, 2, 9, 8, 2, 8, 7, 10, 4, 3}, j = 2
+    }
+
+    i = 3 -> while {
+        arr = {2, 2, 3, 8, 2, 8, 7, 10, 4, 3}, j = 3
+    }
+
+    i = 4 -> while {
+        arr = {2, 2, 3, 4, 2, 8, 7, 10, 4, 3}, j = 4
+    }
+
+    i = 5 -> while {
+        arr = {2, 2, 3, 4, 5, 8, 7, 10, 4, 3}, j = 5
+    }
+
+    i = 6 -> while {
+    }
+
+    i = 7 -> while {
+        arr = {2, 2, 3, 4, 5, 7, 7, 10, 4, 3}, j = 6
+    }
+
+    i = 8 -> while {
+        arr = {2, 2, 3, 4, 5, 7, 8, 10, 4, 3}, j = 7
+        arr = {2, 2, 3, 4, 5, 7, 8, 8, 4, 3}, j = 8
+     }
+
+    i = 9 -> while {
+        arr = {2, 2, 3, 4, 5, 7, 8, 8, 9, 3}, j = 9
+    }
+
+    i = 10 -> while {
+        arr = {2, 2, 3, 4, 5, 7, 8, 8, 9, 10}, j = 10
+    }
+
+Array now is sorted!!

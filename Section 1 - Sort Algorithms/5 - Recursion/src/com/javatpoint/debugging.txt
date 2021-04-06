@@ -1,0 +1,32 @@
+1. Iteration algorithm:
+e.g. iterativeFibonacci(9);
+    int[] fibs = new int[9 + 2];
+    fibs[0] = 0;
+    fibs[1] = 1;
+    for -> {
+        i = 2 -> fibs[2] = fibs[1] + fibs[0] = 01 + 00 = 1
+        i = 3 -> fibs[3] = fibs[2] + fibs[1] = 01 + 01 = 2
+        i = 4 -> fibs[4] = fibs[3] + fibs[2] = 02 + 01 = 3
+        i = 5 -> fibs[5] = fibs[4] + fibs[3] = 03 + 02 = 5
+        i = 6 -> fibs[6] = fibs[5] + fibs[4] = 05 + 03 = 8
+    }
+return fibs[6] = 8
+
+2. Recursion algorithm:
+e.g. recursionFibonacci(6);
+                                                                     f(6)
+
+                                  f(5)                                                                          f(4)
+
+               f(4)                                    f(3)                                  f(3)                                      f(2)
+
+        f(3)              f(2)              f(2)                    f(1)            f(2)               f(1)                   f(1)              f(0)
+
+   f(2)      f(1)     f(1)     f(0)     f(1)     f(0)                            f(1)   f(0)
+
+f(1)  f(0)
+
+- The purpose of the previous tree, is to simplify the f(6) here to either f(0)s or f(1)s
+f(0) = 0
+f(1) = 1
+The result of f(6) = 8, which are the number of f(1)s as you see.

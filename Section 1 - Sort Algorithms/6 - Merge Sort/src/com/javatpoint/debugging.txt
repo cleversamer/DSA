@@ -1,0 +1,18 @@
+#1- Split the original array into one-element arrays//
+                                                              {20, 35, -15, 7, 55, 1, -22}
+
+                      {20, 35, -15}                                                                                 {7, 55, 1, -22}
+
+          {20}                           {35, -15}                                                        {7, 55}                       {1, -22}
+
+                               {35}                   {-15}                                        {7}              {55}         {1}                {-22}
+                                 
+#2- Merge the one-element arrays and sort them//                                                        
+                                                        
+          {20}                           {-15, 55}                                                        {7, 55}                       {-22, 1}
+
+                      {-15, 20, 55}                                                                                 {-22, 1, 7 ,55}
+
+                                                              {-22, -15, 1, 7, 20, 35, 55}
+
+#3- Array now is sorted!!

@@ -1,0 +1,5 @@
+#Challenge:
+Using shell sort algorithm, do the following steps to sort a specified algorithm:
+
+1. Declare a new array of int data type with the values {1, -9, 8, -7, 22, 77, -72, 3, 2, 0, 0}.
+2. Write a method called shellSort() that sorts the previous array in DESCENDING order.

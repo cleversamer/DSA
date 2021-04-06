@@ -1,0 +1,20 @@
+- Quick sort algorithm:
+Is the widely used sorting algorithm that makes n log n comparisons in average case for
+sorting of an array of n elements. This algorithm follows divide and conquer approach.
+
+- Notes:
+1. Divide and conquer algorithm.
+2. Recursive algorithm.
+3. Uses a pivot element to partition the array into two parts.
+4. Elements < pivot to its left, elements > pivot to its right.
+5. Pivot will then be in its correct sorted position.
+6. Process is now repeated for the left array and right array.
+7. Eventually, every element has been the pivot, so every element will be in its correct sorted position.
+8. As with merge sort, we'll end up partitioning the array into series of 1-element arrays.
+9. In-place algorithm (unlike merge sort).
+
+- Complexity:
+Complexity	Best Case	                  Average Case	Worst Case
+Time	    O(n) for 3 way partition or   O(n log n)    O(n2)
+            O(n log n) simple partition.
+Space			                                        O(log n)

@@ -1,0 +1,14 @@
+Bubble sort algorithm:
+Each element of the array is compared with its adjacent element.The algorithm processes the list in passes.
+A list with n elements requires n-1 passes for sorting.
+
+Complexity of the algorithm:
+1. Space	                  =>    O(1)
+2. Worst case running time	  =>    O(n2)
+3. Average case running time  =>	O(n)
+4. Best case running time	  =>    O(n2)
+
+Notes:
+- This is the worst type of sort algorithms.
+- It is not complex to implement.
+- Stable sort algorithm.

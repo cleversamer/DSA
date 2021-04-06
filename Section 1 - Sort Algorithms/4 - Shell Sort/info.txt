@@ -1,0 +1,42 @@
+- Shell sort algorithm:
+Is the generalization of insertion sort which overcomes the drawbacks
+of insertion sort by comparing elements separated by a gap of several positions.
+
+- In general, Shell sort performs the following steps.
+* Step 1: Arrange the elements in the tabular form and sort the columns by using insertion sort.
+* Step 2: Repeat Step 1; each time with smaller number of longer columns in such a way that at
+          the end, there is only one column of data to be sorted.
+
+- Complexity:
+Complexity	Best Case	Average Case	Worst Case
+Time	    Ω(n log(n))	θ(n log(n)2)	O(n log(n)2)
+Space			                        O(1)
+
+- Notes:
+01. In-place algorithm (we don't need to make a new array).
+02. Difficult to nail down the time complexity because it will
+   depend on the gap. Worst case O(n^n), but it can perform
+   much better than that.
+03. Doesn't require as much shifting as insertion sort, so it
+   usually performs better.
+04. Unstable algorithm.
+05. Variation of Insertion Sort.
+06. Insertion Sort chooses which element to insert using a gap of 1.
+07. Shell Sort algorithm starts out using a larger gap value.
+08. As the algorithm runs, the gap is reduced.
+09. Goal is to reduce the amount of shifting required.
+10. The last gap value is always 1.
+11. So, the algorithm does some preliminary work (using gap values
+    greater than 1), and then becomes insertion sort.
+12. By the time we get to insertion sort, the array has been
+    partially sorted, so there's less shifting required.
+13. Knuth Sequence (the way of calculating the gap(interval) :
+    * Gap is calculated using (3^k - 1) / 2.
+    * K is the length of the array.
+    * We want the gap to be as close as possible to the length of the
+      array we want tot sort, without being greater than the length.
+    * We'll base our gap on the array's length. We'll initialize the gap
+      (or interval) to (array.length / 2).
+    * On each iteration, we'll divide the gap value by 2 to get the next gap value.
+    * For our array, the gap will be initialized to 3.
+    * On the next iteration, i will be -1 insertion sort.

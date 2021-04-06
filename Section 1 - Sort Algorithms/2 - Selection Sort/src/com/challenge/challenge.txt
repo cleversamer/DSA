@@ -1,0 +1,9 @@
+#Challenge:
+Using selection sort algorithm, do the following steps to sort a specified algorithm:
+
+1. Declare a new array of int data type with the values {1, -9, 8, -7, 22, 77, -72, 3, 2, 0, 0}.
+2. Write a method called selectionSort() that sorts the previous array in DESCENDING order.
+4. Write another method called printArray() that can print the array of integers which we have declared it.
+
+Hint: You can write a third method that can swap the elements in the array.
+TIP: Try to swap elements without using a third variable.

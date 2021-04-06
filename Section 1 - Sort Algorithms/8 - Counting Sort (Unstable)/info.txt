@@ -1,0 +1,27 @@
+- Unstable counting sort algorithm:
+It is a sorting technique based on the keys i.e. objects are collected according to keys which
+are small integers. Counting sort calculates the number of occurrence of objects and stores its
+key values. New array is formed by adding previous key elements and assigning to objects.
+
+- Algorithm steps:
+using this array -> {2, 5, 9, 8, 2, 8, 7, 10, 4, 3} - length = 10
+1. Assume we have values between 1 and 10 inclusive.
+2. We have 10 possible values, so we create a counting array of length 10.
+3. Traverse the input array from left to right.
+4. Use the counting array to track how many of each value are in the input array.
+5. Using the counts in the counting array, write the values in sorted order to the input array.
+
+- Complexity: (K is the range of input array)
+Complexity	      Best Case	 Average Case	Worst Case
+Time	          Ω(n+k)	 θ(n+k)	        O(n+k)
+Space  			                            O(k)
+
+- Notes:
+1. Makes assumptions about the data.
+2. Doesn't use combinations.
+3. Counts the number of occurrences of each value.
+4. Only works with non-negative discrete values (can't work with floats, strings).
+5. Values must be within a specific range.
+6. NOT an in-place algorithm.
+7. O(n) - can achieve the data we're sorting.
+8. If we want the sort to be stable, we have to do some extra steps.

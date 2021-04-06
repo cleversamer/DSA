@@ -1,0 +1,29 @@
+- Merge sort algorithm:
+ Is the algorithm which follows divide and conquer approach. Consider an array intArray of n number of elements.
+ The algorithm processes the elements in 3 steps:
+1. If intArray Contains 0 or 1 elements then it is already sorted, otherwise, Divide intArray into two sub-array of equal number of elements.
+2. Conquer means sort the two sub-arrays recursively using the merge sort.
+3. Combine the sub-arrays to form a single final sorted array maintaining the ordering of the array.
+
+- The main idea behind merge sort is that, the short list takes less time to be sorted.
+
+- Notes:
+1. Divide and conquer algorithm.
+2. Recursive algorithm.
+3. Two phases: Splitting and Merging.
+4. Splitting phase leads to faster sorting during the Merging phase.
+5. Splitting is logical. We don't create new arrays.
+6. Not an in-place algorithm.
+7. O(n log n)-base 2. We are repeatedly dividing the array in half during the splitting phase.
+8. Stable algorithm.
+
+- Merging Process:
+1. We merge sibling left and right arrays.
+2. We create a temporary array large enough to hold all the elements in the arrays we are merging.
+3. We set i to the first index of the left array, and j to the first index of the right array.
+4. We compare left[i] to right[i]. If left is smaller, then we copy it to the temp array and increment i by 1. If right is smaller, then we copy it to the temp array and increment j by 1.
+
+- Complexity:
+Complexity	Best case	Average Case	Worst Case
+Time	    O(n log n)	O(n log n)	    O(n log n)
+Space			                        O(n)

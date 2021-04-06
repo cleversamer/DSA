@@ -1,0 +1,22 @@
+                                                              {20, 35, -15, 7, 55, 1, -22}
+                                                                       pivot = 20
+
+                      {-15, 7, 1, -22}                                                                                 {35, 55}
+                        pivot = -15                                                                                    pivot = 35
+
+
+          {-22}                           {7, 1}                                                                                      {55}
+                                         pivot = 7
+
+                                  {1}
+
+Then add the elements from left to right as you see in the tree:
+-22,
+then -15,
+then 1,
+then 7,
+then 20,
+then 35,
+then 55.
+
+Array now is sorted!!

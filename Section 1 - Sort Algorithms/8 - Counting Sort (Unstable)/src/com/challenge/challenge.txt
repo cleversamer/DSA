@@ -1,0 +1,5 @@
+# Challenge:
+- Modify the counting sort algorithm so that it sorts integers in DESCENDING order.
+- Use the usual example array.
+
+TIP: Write your solution int the "Solution" class which is created inside "challenge" package.

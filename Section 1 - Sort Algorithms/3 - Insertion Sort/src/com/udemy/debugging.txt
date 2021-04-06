@@ -1,0 +1,35 @@
+firstUnsortedIndex = 1, newElement = 35, arr = {20, 35, -15, 7, 55, 1, -22}
+        nested loop will not start here, because the 2nd condition is false.
+        So, arr = {20, 35, -15, 7, 55, 1, -22}
+
+    firstUnsortedIndex = 2, newElement = -15, arr = {20, 35, -15, 7, 55, 1, -22}
+        i = 2 -> arr = {20, 35, 35, 7, 55, 1, -22}, then i = 1
+        i = 1 -> arr = {20, 20, 35, 7, 55, 1, -22}, then i = 0
+        arr = {-15, 20, 35, 7, 55, 1, -22}
+
+    firstUnsortedIndex = 3, newElement = 7, arr = {-15, 20, 35, 7, 55, 1, -22}
+        i = 3 -> arr = {-15, 20, 35, 35, 55, 1, -22}, then i = 2
+        i = 2 -> arr = {-15, 20, 20, 35, 55, 1, -22}, then 2 = 1
+        arr = {-15, 7, 20, 35, 55, 1, -22}
+
+    firstUnsortedIndex = 4, newElement = 55, arr = {-15, 7, 20, 35, 55, 1, -22}
+        nested loop will not start here, because the 2nd condition is false.
+        So, arr = {-15, 7, 20, 35, 55, 1, -22}
+
+    firstUnsortedIndex = 5, newElement = 1, arr = {-15, 7, 20, 35, 55, 1, -22}
+        i = 5 -> arr = {-15, 7, 20, 35, 55, 55, -22}, then i = 4
+        i = 4 -> arr = {-15, 7, 20, 35, 35, 55, -22}, then i = 3
+        i = 3 -> arr = {-15, 7, 20, 20, 35, 55, -22}, then i = 2
+        i = 2 -> arr = {-15, 7, 7, 20, 35, 55, -22},  then i = 1
+        arr = {-15, 1, 7, 20, 35, 55, -22}
+
+    firstUnsortedIndex = 6, newElement = -22, arr = {-15, 1, 7, 20, 35, 55, -22}
+        i = 6 -> arr = {-15, 1, 7, 20, 35, 55, 55},  then i = 5
+        i = 5 -> arr = {-15, 1, 7, 20, 35, 35, 55},  then i = 4
+        i = 4 -> arr = {-15, 1, 7, 20, 20, 35, 55},  then i = 3
+        i = 3 -> arr = {-15, 1, 7, 7, 20, 35, 55},   then i = 2
+        i = 2 -> arr = {-15, 1, 1, 7, 20, 35, 55},   then i = 1
+        i = 1 -> arr = {-15, -15, 1, 7, 20, 35, 55}, then i = 0
+        arr = {-22, -15, 1, 7, 20, 35, 55}
+
+    Array now is sorted!!
