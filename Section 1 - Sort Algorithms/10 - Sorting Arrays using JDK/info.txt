@@ -1,8 +1,0 @@
-1. Arrays.sort():
-- It uses Quick-sort algorithm, but it is a Dual-pivot Quicksort.
-- This algorithm offers O(n log n).
-- It is typically faster than traditional (one-pivot) Quicksort implementations.
-
-2. Arrays.parallelSort():
-- A parallel Merge-sort that breaks the array into sub-arrays.
-
