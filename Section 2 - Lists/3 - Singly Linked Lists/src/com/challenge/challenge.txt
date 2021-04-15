@@ -1,0 +1,9 @@
+# Challenge:
+
+* Use the SinglyLinkedList class in udemy package.
+* Implement a method in the IntegerLinkedList class that inserts a value in sorted order.
+* Lower values should appear first in the list (be closer to the head).
+* If we insert (4, 2, 1, 5), list should looks like {1, 2, 4, 5}.
+* IntegerLinkedList is a singly-linked list.
+* Project contains all the code you need and an empty insertSorted() method.
+* Main method contains the code that should work when you're finished.
