@@ -1,0 +1,5 @@
+# Challenge:
+* Implement the addBefore() method for the DoublyLinkedList class in this package.
+* Use the implementation you wrote in this project.
+* Class contains all the code you need and an empty addBefore() method.
+* Main method contains code that should work when you're finished.
