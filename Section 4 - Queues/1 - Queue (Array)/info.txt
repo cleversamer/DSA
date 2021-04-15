@@ -1,0 +1,25 @@
+# Queue:
+A queue can be defined as an ordered list which enables insert operations to be performed at one end called REAR
+and delete operations to be performed at another end called FRONT. Queue is referred to be as First In First Out list (FIFO).
+For example, people waiting in line for a rail ticket form a queue.
+
+# Applications of Queue:
+Due to the fact that queue performs actions on first in first out basis which is quite fair for the ordering of actions.
+There are various applications of queues discussed as below:
+1. Queues are widely used as waiting lists for a single shared resource like printer, disk, CPU.
+2. Queues are used in asynchronous transfer of data (where data is not being transferred at the same rate between two processes) for eg. pipes, file IO, sockets.
+3. Queues are used as buffers in most of the applications like MP3 media player, CD player, etc.
+4. Queue are used to maintain the play list in media players in order to add and remove the songs from the play-list.
+5. Queues are used in operating systems for handling interrupts.
+
+# Notes:
+* Queue is an abstract data type.
+* FIFO - First in, First out.
+* add  - also called enqueue - remove the item at the front of the queue.
+* peek - get the item at the front of the queue, but don't remove it.
+
+# Complexity:
+* Time Complexity	                                                              * Space Complexity
+* Average	                              * Worst	                              * Worst
+* Access	Search	Insertion	Deletion  * Access	Search	Insertion	Deletion  *
+* θ(n)	    θ(n)	θ(1)	    θ(1)      * O(n)	O(n)	O(1)	    O(1)	  * O(n)
