@@ -1,0 +1,21 @@
+# Stack:
+A Stack is a linear data structure that follows the LIFO (Last-In-First-Out) principle. Stack has one end.
+It contains only one pointer top pointer pointing to the topmost element of the stack. Whenever an element
+is added in the stack, it is added on the top of the stack, and the element can be deleted only from the stack.
+In other words, a stack can be defined as a container in which insertion and deletion can be done from the one
+end known as the top of the stack.
+
+# Notes:
+* Abstract data type.
+* LIFO, Last in, First out.
+* Push - adds an item as the top item on the stack.
+* Pop  - removes the top item on the stack.
+* Peek - gets the top item on the stack without popping it.
+* Ideal backing data structure is LinkedList.
+
+# Time Complexity:
+* O(1) for push, pop, and peek, when using a linked list.
+* If you use an array, then push is O(n), because the array may have to be resized.
+* If you know the maximum number of items that will ever be on the stack, an array can be a good choice.
+* If memory is tight, an array might be a good choice.
+* LinkedList is ideal.
