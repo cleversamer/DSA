@@ -13,5 +13,4 @@ This is a full-source to learn Data Structures and Algorithms using Java program
 8. Sort algorithms
 9. Search algorithms
 
-Presented by: Samer Al-Sa'dawi
-Good luck!!
+Presented by: Samer Al-Sa'dawi, Good luck!!
