@@ -1,0 +1,10 @@
+# Challenge:
+* Using a stack and a queue, determine whether a string is a palindrome.
+* Strings may contain punctuation and spaces, they should be ignored.
+
+* Examples:
+- "I did, did I?" is palindrome.
+- "Racecar" is palindrome.
+- "hello" is not palindrome.
+
+* Write your solution in a checkForPalindrome() method inside Solution class.
