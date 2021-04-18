@@ -1,0 +1,2 @@
+# Challenge:
+- Complete the "hash" method inside "Solution" class.

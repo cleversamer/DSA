@@ -1,0 +1,46 @@
+# Hashtable:
+Hashtable is one of the most important data structures that uses a special function known as a hash function
+that maps a given value with a key to access the elements faster. A Hash table is a data structure that stores
+some information, and the information has basically two main components, i.e., key and value. The hash table can
+be implemented with the help of an associative array. The efficiency of mapping depends upon the efficiency of the
+hash function used for mapping.
+
+# Notes:
+* Abstract data type.
+* Provide access to data using keys.
+* Key doesn't have to be an integer.
+* Consist of key/value pairs - data type don't have to match.
+* Optimized for retrieval (when you know the key).
+* Associative array in one type of hash table.
+
+# Hashing:
+Hashing is one of the searching techniques that uses a constant time. The time complexity in hashing is O(1).
+Till now, we read the two techniques for searching, i.e., linear search and binary search. The worst time
+complexity in linear search is O(n), and O(logn) in binary search. In both the searching techniques, the
+searching depends upon the number of elements but we want the technique that takes a constant time. So, hashing
+technique came that provides a constant time. In Hashing technique, the hash table and hash function are used.
+Using the hash function, we can calculate the address at which the value can be stored.
+
+# Notes:
+* Maps keys of any data type to an integer.
+* Hash function maps keys to int.
+* In Java, hash function is Object.hashCode().
+* Collision occurs when mire than one value has the same hashed value.
+
+# Load Factor:
+* Tells us how full a hash table is.
+* Load factor = # of items / capacity = size / capacity
+* Load factor is used to decide when to resize the array backing the hash table.
+* Don't want load factor too low (lots of empty space).
+* Don't want load factor too high (will increase the likelihood of collisions).
+* Can play a role in determining the time complexity for retrieval.
+
+# Add to a Hashtable backed by an array:
+1. Provide a key/value pair.
+2. Use a hash function to hash the key to an int value.
+3. Store the value at the hashed key value - this is the index into the array.
+
+# Retrieve a value from Hashtable:
+1. Provide the key.
+2. Use same hash function to hash the key to an int value.
+3. Retrieve the value stored at the hashed key value.

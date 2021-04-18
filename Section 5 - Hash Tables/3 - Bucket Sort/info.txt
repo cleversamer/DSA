@@ -1,0 +1,26 @@
+# Bucket sort:
+Bucket sort is also known as bin sort. It works by distributing the element into the array
+also called buckets. Buckets are sorted individually by using different sorting algorithm.
+
+# Notes:
+* Uses hashing.
+* Makes assumptions about the data, like radix and counting sort.
+* Because it makes assumptions, can sort in O(n) time.
+* Performs nest when hashed values of items being sorted are evenly distributed, so there aren't many collisions.
+* A generalization of counting sort.
+* The values in bucket (X) must be greater than the values in bucket (X - 1) and less than the values in bucket (X + 1).
+* This means that the hash function we use must meet requirement.
+* NOT in-place algorithm.
+* Stability will depend on sort algorithm used to sort the buckets - ideally, you want a stable sort.
+* To achieve O(n), must have only one item per bucket.
+* Insertion sort is often used to sort the buckets, because it is fast when the number of items is small.
+
+# Complexity:
+        Worst case   Best case   Average case
+Time    O(n2)        Ω(n+k)      θ(n+k)
+Space                            O(1)
+
+# Steps:
+1. Distribute the items into buckets based on their hashed values (scattering phase).
+2. Sort the items in each bucket.
+3. Merge the buckets - can just concatenate them (gathering phase).

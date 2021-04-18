@@ -1,0 +1,4 @@
+# Challenge #2:
+- Remove duplicate items from a linked list.
+- Your solution must be in the JDK's LinkedList class.
+- Your solution must be a HashMap.
