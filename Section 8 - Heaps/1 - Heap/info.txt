@@ -1,0 +1,50 @@
+# Heap:
+A heap is a complete binary tree, and the binary tree is a tree in which the node can have utmost two children.
+Before knowing more about the heap data structure, we should know about the complete binary tree.
+
+# Complete Heap:
+A complete binary tree is a binary tree in which all the levels except the last level, i.e., leaf node should be
+completely filled, and all the nodes should be left-justified.
+
+# Notes:
+* A complete binary tree.
+* Must satisfy the heap property.
+* Max heap: Every parent is greater than or equal to its children.
+* Min heap: Every parent is less than or equal to its children.
+* A binary heap must be a complete tree.
+* Usually implemented as arrays.
+* The maximum or minimum value will always be at the root of the tree - the advantage of using heap.
+* Heapify: process of converting a binary tree into heap - thus often has to be done after an insertion or deletion.
+* No required ordering between siblings.
+* We can store binary heaps as arrays.
+* We put the root at array[0].
+* We then traverse each level from left to right, and so the left child of the root would go into array[1], its right child would into array[2], etc.
+* For example:
+                                [ 22, 19, 18, 15, 3, 14, 4, 12 ]
+
+                                               22
+
+                                        19            18
+
+                                   15        3   14          4
+
+                              12
+* For the node at array[i]:
+- left child  = 2i + 1
+- right child = 2i + 2
+- parent = the floor if (i - 1) / 2       {In Java -> Math.floor((i - 1) / 2)}
+So, array[3] which is 15, the left child for it is array[2*3+1] = array[7] = 12 as you see in the previous array.
+And the parent of value '3' which is at index '4' is array[floor((i - 1) / 2)] = array[1] = '19'.
+
+# Insert into Heap:
+* Always add new items to the end of the array.
+* Then we have to fix the heap (heapify).
+* We compare the new items against its parent.
+* If the item is greater than its parent, we swap it with its parent.
+* We then rinse and repeat.
+
+# Delete from Heap:
+* Must choose a replacement value.
+* Will take their rightmost value, so that the tree remains complete.
+* Then we must heapify the heap.
+* When replacement value is greater than parent, fix heap above. Otherwise, fix heap below.

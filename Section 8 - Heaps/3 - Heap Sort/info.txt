@@ -1,0 +1,17 @@
+# Heap Sort:
+Heap sort processes the elements by creating the min heap or max heap using the elements of the given array.
+Min heap or max heap represents the ordering of the array in which root element represents the minimum or 
+maximum element of the array. At each step, the root element of the heap gets deleted and stored into the sorted 
+array and the heap will again be heapified.
+
+# Notes:
+* We know the root has the largest value (when max heap).
+* Swap root with last element in the array.
+* Heapify the tree, but exclude the last node.
+* After heapify, second largest element is the root.
+* Rinse and repeat.
+
+# Complexity:
+Complexity	Best Case	Average Case	Worst case
+Time		Ω(n log (n))	θ(n log (n))	O(n log (n))
+Space						O(1)
