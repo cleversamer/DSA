@@ -1,4 +1,4 @@
-# Data-Structures-and-Algorithms-using-Java
+# Data-Structures and Algorithms using Java
 Hello everybody,
 This is a full-source to learn Data Structures and Algorithms using Java programming language.
 
