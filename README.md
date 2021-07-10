@@ -2,7 +2,7 @@
 Hello everybody,
 This is a full-source to learn Data Structures and Algorithms using Java programming language.
 
-* What does repository covers?
+* What does repository cover?
 1. Arrays
 2. Linked Lists
 3. Trees
